@@ -1,6 +1,7 @@
 body {
     background-color: rgb(40, 37, 37);
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -9,6 +10,40 @@ a {
 
 a:hover {
     color: blue;
+}
+
+.input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid lightgrey;
+    border-radius: 4px;
+    width: 25%;
+    transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    width: 65%;
+}
+
+.textarea {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.formsubmit {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 426px) {
@@ -21,8 +56,8 @@ nav {
 }
 
 .hey{
-    min-width: 20vw;
-    min-height: 20vw;
+    min-width: 15vw;
+    min-height: 15vw;
 }
 
 div .intro {
@@ -63,8 +98,8 @@ footer {
     }
     
     .hey{
-        min-width: 20vw;
-        min-height: 20vw;
+        min-width: 15vw;
+        min-height: 15vw;
     }
     
     div .intro {
@@ -109,8 +144,8 @@ footer {
     }
     
     .hey{
-        min-width: 20vw;
-        min-height: 20vw;
+        min-width: 10vw;
+        min-height: 10vw;
     }
 
     .introwrap {
