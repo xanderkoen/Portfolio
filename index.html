@@ -13,15 +13,20 @@
     <nav>
         <img src="https://cdn.discordapp.com/attachments/594925739703533646/654971380894269460/original.png" alt="logo" class="hey" width="5%" height="5%">
         <a href="#"><p class="navitem">home</p></a>
-        <a href="#"><p class="navitem">about</p></a>
-        <a href="#"><p class="navitem">skills</p></a>
+        <a href="#aboutme"><p class="navitem">about</p></a>
+        <a href="#contact"><p class="navitem">contact</p></a>
     </nav>
-    <body>
-        <div class="introwrap">
+    <header>
+        <div class="header">
+            <p>Xanders portofolio website</p>
+        </div>
+    </header>
+    <main>
+        <section class="introwrap" id="aboutme">
             <div class="intro">
                 <h1>Xander Koen</h1>
                 <img src="https://cdn.discordapp.com/attachments/594925739703533646/1022533660194394262/rn_image_picker_lib_temp_9820f577-33bd-4060-855f-e02fb9a9d0de.jpg" width="100%" height="70%">
-                <p>Ervaring met :</p>
+                <p id="skills">Ervaring met :</p>
                 <ul>
                     <table>
                         <th>
@@ -77,8 +82,8 @@
                     </table>
                 </ul>
             </div>
-        </div>
-    </body>
+        </section>
+    </main>
     <footer>
         <div class="grid-item">
             <p> Socials! </p>
@@ -88,7 +93,7 @@
         <div class="grid-item">
             <h2>Contact me :</h2>
 
-            <form action="#">
+            <form id="contact" action="#">
                 <p>Name :</p>
                 <input type="text" name="name" class="input" placeholder="Name" required>
 
