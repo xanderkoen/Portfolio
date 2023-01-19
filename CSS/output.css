@@ -5762,16 +5762,12 @@ textarea.form-control.is-invalid {
   margin-top: 0.5rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .mb-4 {
   margin-bottom: 1rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .mt-24 {
@@ -5784,6 +5780,10 @@ textarea.form-control.is-invalid {
 
 .ml-6 {
   margin-left: 1.5rem;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mb-2 {
@@ -5925,6 +5925,22 @@ textarea.form-control.is-invalid {
 
 .max-h-screen {
   max-height: 100vh;
+}
+
+.max-h-12 {
+  max-height: 3rem;
+}
+
+.max-h-64 {
+  max-height: 16rem;
+}
+
+.max-h-96 {
+  max-height: 24rem;
+}
+
+.min-h-full {
+  min-height: 100%;
 }
 
 .w-full {
