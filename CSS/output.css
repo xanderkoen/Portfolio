@@ -2622,12 +2622,6 @@ textarea.form-control.is-invalid {
   touch-action: pan-y;
 }
 
-.carousel-inner::after {
-  display: block;
-  clear: both;
-  content: "";
-}
-
 .carousel-item {
   display: none;
   margin-right: -100%;
@@ -5639,6 +5633,10 @@ textarea.form-control.is-invalid {
   left: -0.25rem;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .right-0 {
   right: 0px;
 }
@@ -5649,10 +5647,6 @@ textarea.form-control.is-invalid {
 
 .left-0 {
   left: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .bottom-\[60px\] {
@@ -5766,12 +5760,12 @@ textarea.form-control.is-invalid {
   margin-top: 1rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mt-24 {
   margin-top: 6rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-1 {
@@ -5792,6 +5786,14 @@ textarea.form-control.is-invalid {
 
 .mt-64 {
   margin-top: 16rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .box-border {
@@ -5927,13 +5929,18 @@ textarea.form-control.is-invalid {
   max-height: 100vh;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .w-1\/2 {
@@ -6787,17 +6794,22 @@ textarea.form-control.is-invalid {
   border-radius: 0.5rem;
 }
 
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .rounded-t-lg {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
+}
+
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
 }
 
 .rounded-l-lg {
@@ -7136,10 +7148,6 @@ textarea.form-control.is-invalid {
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .p-6 {
