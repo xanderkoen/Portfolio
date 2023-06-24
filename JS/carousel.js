@@ -49,12 +49,12 @@ function start() {
             if (counter === 1) {
                 counter = (imageSlides.length - 1);
                 imageLoop();
-                imageSlideshowInterval = setInterval(slideshow, 10000);
+                imageSlideshowInterval = setInterval(slideshow, 2000);
             } else {
                 counter--;
                 counter--;
                 imageLoop();
-                imageSlideshowInterval = setInterval(slideshow, 10000);
+                imageSlideshowInterval = setInterval(slideshow, 2000);
             }
         } else if (target === rightArrow) {
             clearInterval(imageSlideshowInterval);
@@ -63,10 +63,10 @@ function start() {
             if (counter === imageSlides.length) {
                 counter = 0;
                 imageLoop();
-                imageSlideshowInterval = setInterval(slideshow, 10000);
+                imageSlideshowInterval = setInterval(slideshow, 2000);
             } else {
                 imageLoop();
-                imageSlideshowInterval = setInterval(slideshow, 10000);
+                imageSlideshowInterval = setInterval(slideshow, 2000);
             }
         }
     }
@@ -88,5 +88,5 @@ function start() {
 
 // SHOW FIRST IMAGE, & THEN SET & CALL SLIDE INTERVAL
     setTimeout(slideshow, 1000);
-    let imageSlideshowInterval = setInterval(slideshow, 10000);
+    let imageSlideshowInterval = setInterval(slideshow, 2000);
 }
