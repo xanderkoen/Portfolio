@@ -75,3 +75,7 @@
     background-color: rgba(255, 255, 255, 0.7);
     border: solid 2px rgba(255, 255, 255, 0.5);
 }
+
+.unselectable {
+    pointer-events: none;
+}
