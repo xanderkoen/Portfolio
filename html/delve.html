@@ -8,7 +8,7 @@
     <script src="../JS/carousel.js"></script>
     <title>Delve - info</title>
 </head>
-<body class="bg-gradient-to-r from-fuchsia-400 to-violet-900">
+<body class="bg-gradient-to-r from-fuchsia-400 to-violet-900" id="top">
 <div class="grid grid-cols-10 gap-2 items-center justify-items-stretch w-full min-h-max">
     <div class="col-span-3 h-full bg-slate-50 justify-center overlapping">
         <img src="../media/delve.png" alt="Delve" width="380" height="200" class="my-4 mx-auto rounded-lg">
@@ -17,7 +17,10 @@
         <div class="flex justify-center mt-2 pb-4">
             <p class="text-lg mx-2 p-1 bg-purple-300 rounded">Unreal Engine</p>
             <p class="text-lg mx-2 p-1 bg-purple-300 rounded">Blueprints</p>
+            <p class="text-lg mx-2 p-1 bg-orange-200 rounded">Blender</p>
         </div>
+        <hr class="bg-yellow-200 text-yellow-100 mb-2 rounded-full mx-4">
+
         <div class="text-left mt-12">
             <p class="text-center text-xl">Nieuwe geleerde skills :</p>
             <div class="mt-4 w-full">
@@ -27,12 +30,20 @@
                 <p class="ml-8"> - Coderen met blueprints</p>
                 <div class="bg-white">
                     <p class="ml-8"> - Multiplayer game development</p>
+                    <p class="ml-12"> - Multiplayer lobby system</p>
+                    <p class="ml-12"> - Multiplayer Player Host migrations</p>
+
+                </div>
+                <p class="ml-8"> - 3D modeling met Blender</p>
+                <div class="bg-white w-full">
+                    <p class="ml-8"> - Niagara Particle system</p>
                 </div>
             </div>
         </div>
     </div>
     <div class="bg-white col-span-7 w-fit h-full">
-        <div class="text-center text-lg p-1">
+        <div class="text-center text-lg p-1 mt-2">
+            <p class="w-full bg-slate-100 text-xs font-semibold">-- Juni 2023 -- </p>
             <p>Delve is een multiplayer Horror game waar ik in mijn eentje aan werk ik werk er zo nu en dan aan omdat ik het leuk vind om games te maken. Als hobby heb ik wel vaker mods/custom maps gemaakt voor games zoals portal2 en zelfs Call of Duty Black Ops 3 Zombies<br><br>
             Delve is gemaakt in Unreal engine 5.1 en en gebruikt Steamworks om sessions mee te hosten met deze sessions kan je met andere mensen spelen via het internet</p>
 
@@ -60,6 +71,17 @@
                 <span class="circle"></span>
                 <span class="circle"></span>
             </div>
+            <p class="w-full bg-slate-100 text-xs font-semibold mb-2">-- November 2023 -- </p>
+            <p>Na veel testen Heb ik de lobby eindelijk afgekregen. alles te maken met hosting en connecting is nu zo
+                goed als af. Ik heb een migration system geimplementeerd, dat betekend dat als de host niet ready is
+                maar de clients wel wordt er een nieuwe client aangewezen als host en ge-migrate naar een nieuwe session.</p>
+            <p>Zodra de countdown in de lobby voorbij is gaat de lift naar beneden en wordt het nieuwe level ingeladen.
+            Ik heb hierbij een mooie loading screen gemaakt met bijbehorende animaties die je hieronder kan zien :</p>
+            <iframe width="750" height="400" class="rounded-md w-3/4 mx-auto my-2" src="https://www.youtube-nocookie.com/embed/h96Tl3wK2xY?si=r0eC0Uu0Kl5syBWt&amp;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>Omdat ik nu helemaal klaar ben met connection en migration betekend dat dat ik kan beginnen met random
+                level generation en environment art. Voordat ik daar aan begin ga ik een nieuwe player model maken in blender
+            ga ik de animaties en playercontroller opnieuw programmeren voor betere controle over je character.</p>
+            <a href="#top"><button class="font-semibold rounded-lg bg-slate-200 p-2 text-black hover:text-slate-400 hover:bg-slate-100 transition duration-150 ease-in-out drop-shadow-lg">Back to top</button></a>
         </div>
     </div>
 
