@@ -8351,6 +8351,10 @@ textarea.form-control.is-invalid {
     width: auto;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:max-w-sm {
     max-width: 24rem;
   }
