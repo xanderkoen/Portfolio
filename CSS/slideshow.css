@@ -3,7 +3,7 @@
     overflow: hidden;
     margin: 50px 0 75px;
     width: 100%;
-    height: 500px;
+    aspect-ratio: 16 / 9;
 }
 
 .imageSlides {
@@ -11,8 +11,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     z-index: 1;
